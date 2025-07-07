@@ -12,11 +12,9 @@ if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) {
   <meta charset="UTF-8">
   <title>Welcome | Liga Malam Jumat</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
   <style>
-    body {
-      background: #f4f6f8;
-      font-family: 'Segoe UI', sans-serif;
-    }
     .welcome-box {
       max-width: 600px;
       margin: 80px auto;
