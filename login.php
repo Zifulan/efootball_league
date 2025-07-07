@@ -46,6 +46,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   <title>Login - Liga Malam Jumat</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
   <style>
     :root {
@@ -335,6 +336,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   </style>
 </head>
 <body>
+  <button id="darkModeToggle" class="btn btn-secondary">Dark Mode</button>
   <div class="floating-shapes">
     <div class="shape"></div>
     <div class="shape"></div>
@@ -421,7 +423,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     });
 
     // Add focus animations
-    document.querySelectorAll('.form-control').forEach(input => {
+  document.querySelectorAll('.form-control').forEach(input => {
       input.addEventListener('focus', function() {
         this.parentElement.style.transform = 'scale(1.02)';
       });
@@ -431,5 +433,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       });
     });
   </script>
+  <script src="darkmode.js"></script>
 </body>
 </html>
