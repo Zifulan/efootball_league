@@ -1,0 +1,136 @@
+
+/* General Body Styling */
+body {
+  background-color: #f1f3f6;
+  font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+}
+
+
+/* Card Styling */
+/*.card {*/
+/*  border-radius: 16px;*/
+/*  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);*/
+/*  border: none;*/
+/*  background-color: #ffffff;*/
+/*}*/
+.card {
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+/* Header Title */
+.header-title {
+  font-weight: 700;
+  color: #0d6efd;
+}
+
+.title-badge {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #0d6efd;
+}
+
+/* Table Styling */
+.table thead {
+  background-color: #0d6efd;
+  color: #fff;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #f2f9ff;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f8f9fa;
+}
+
+tbody tr:first-child {
+  background-color: #d1e7dd; /* highlight top team */
+}
+
+
+
+/* Buttons */
+.btn-primary {
+  background-color: #0d6efd;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0b5ed7;
+}
+
+.btn-outline-secondary {
+  border-color: #6c757d;
+  color: #6c757d;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #dee2e6;
+  color: #000;
+}
+
+.btn-outline-primary {
+  border-color: #0d6efd;
+  color: #0d6efd;
+}
+
+.btn-outline-primary:hover {
+  background-color: #0d6efd;
+  color: #fff;
+}
+
+.btn-outline-success {
+  border-color: #198754;
+  color: #198754;
+}
+
+.btn-outline-success:hover {
+  background-color: #198754;
+  color: #fff;
+}
+
+.btn-outline-dark {
+  border-color: #212529;
+  color: #212529;
+}
+
+.btn-outline-dark:hover {
+  background-color: #212529;
+  color: #fff;
+}
+
+.btn-outline-danger {
+  border-color: #dc3545;
+  color: #dc3545;
+}
+
+.btn-outline-danger:hover {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+/* Form Styling */
+.form-label {
+  font-weight: 500;
+}
+
+.form-control, .form-select {
+  border-radius: 8px;
+}
+
+/* Fixture Card Styling */
+
+.fixture-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-left: 4px solid #0d6efd;
+  background: linear-gradient(to right, #f1f9ff, #fff);
+}
+
+.fixture-card:hover {
+  background-color: #e9f5ff;
+  transform: scale(1.01);
+}
