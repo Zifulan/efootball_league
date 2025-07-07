@@ -35,5 +35,3 @@ This is a simple custom league management system for eFootball Mobile, built in 
 ## 🧠 Notes
 - Consider adding authentication salt/hash for production.
 - You can customize charts, player stats, and more!
-
-Created with ❤️ by ChatGPT + Fatahillah
