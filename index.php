@@ -12,7 +12,6 @@ if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) {
   <meta charset="UTF-8">
   <title>Welcome | Liga Malam Jumat</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
   <style>
     body {
       background: #f4f6f8;
@@ -33,7 +32,6 @@ if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) {
   </style>
 </head>
 <body>
-  <button id="darkModeToggle" class="btn btn-secondary">Dark Mode</button>
   <div class="container">
     <div class="welcome-box text-center">
       <h1 class="mb-4">⚽ Liga Malam Jumat</h1>
@@ -54,6 +52,5 @@ if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) {
       </div>
     </div>
   </div>
-  <script src="darkmode.js"></script>
 </body>
 </html>
