@@ -39,7 +39,6 @@ $base_url = "https://lensajon.my.id/league";
   <meta charset="UTF-8">
   <title>My Leagues</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
   <style>
     .league-card {
       border-left: 5px solid #0d6efd;
@@ -54,7 +53,6 @@ $base_url = "https://lensajon.my.id/league";
   </style>
 </head>
 <body>
-  <button id="darkModeToggle" class="btn btn-secondary">Dark Mode</button>
 <div class="container py-5">
   <h2 class="text-center mb-4">⚽ My Leagues</h2>
 
@@ -86,6 +84,5 @@ $base_url = "https://lensajon.my.id/league";
     <?php endforeach; ?>
   <?php endif; ?>
 </div>
-  <script src="darkmode.js"></script>
 </body>
 </html>

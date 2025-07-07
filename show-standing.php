@@ -74,7 +74,6 @@ $completion_percentage = $total_fixtures > 0 ? round(($total_matches / $total_fi
   <title><?= htmlspecialchars($league['name']) ?> - League Table</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
   <style>
     :root {
@@ -603,7 +602,6 @@ $completion_percentage = $total_fixtures > 0 ? round(($total_matches / $total_fi
   </style>
 </head>
 <body>
-  <button id="darkModeToggle" class="btn btn-secondary">Dark Mode</button>
   <!-- Hero Header -->
   <div class="hero-header">
     <div class="container position-relative">
@@ -869,8 +867,8 @@ $completion_percentage = $total_fixtures > 0 ? round(($total_matches / $total_fi
     });
 
     // Add celebrate animation
-  const style = document.createElement('style');
-  style.textContent = `
+    const style = document.createElement('style');
+    style.textContent = `
       @keyframes celebrate {
         0%, 100% { transform: scale(1); }
         25% { transform: scale(1.02) translateX(2px); }
@@ -878,8 +876,7 @@ $completion_percentage = $total_fixtures > 0 ? round(($total_matches / $total_fi
         75% { transform: scale(1.02) translateX(-2px); }
       }
     `;
-  document.head.appendChild(style);
+    document.head.appendChild(style);
   </script>
-  <script src="darkmode.js"></script>
 </body>
 </html>

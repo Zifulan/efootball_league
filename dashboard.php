@@ -16,7 +16,6 @@ $user_id = $_SESSION['user_id'];
   <title>Dashboard - Liga Malam Jumat</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
   <style>
     :root {
@@ -286,7 +285,6 @@ $user_id = $_SESSION['user_id'];
   </style>
 </head>
 <body>
-  <button id="darkModeToggle" class="btn btn-secondary">Dark Mode</button>
   <!-- Hero Section -->
   <div class="hero-section">
     <div class="floating-particles">
@@ -375,7 +373,7 @@ $user_id = $_SESSION['user_id'];
     }
 
     // Add entrance animations
-  document.addEventListener('DOMContentLoaded', function() {
+    document.addEventListener('DOMContentLoaded', function() {
       const cards = document.querySelectorAll('.action-card');
       cards.forEach((card, index) => {
         card.style.opacity = '0';
@@ -388,6 +386,5 @@ $user_id = $_SESSION['user_id'];
       });
     });
   </script>
-  <script src="darkmode.js"></script>
 </body>
 </html>
