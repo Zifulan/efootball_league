@@ -39,6 +39,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   <meta charset="UTF-8">
   <title>Create League</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
   <style>
     body {
       background: #f5f7fa;
@@ -54,6 +55,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   </style>
 </head>
 <body>
+  <button id="darkModeToggle" class="btn btn-secondary">Dark Mode</button>
   <div class="container">
     <div class="form-box">
       <h2 class="text-center mb-4">🆕 Create New League</h2>
@@ -66,10 +68,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
           <input type="checkbox" name="is_public" class="form-check-input" id="publicCheck">
           <label class="form-check-label" for="publicCheck">Make this league public</label>
         </div>
-        <button type="submit" class="btn btn-success w-100">Create League</button>
-        <a href="dashboard.php" class="btn btn-secondary w-100 mt-2">Back to Dashboard</a>
-      </form>
-    </div>
+    <button type="submit" class="btn btn-success w-100">Create League</button>
+    <a href="dashboard.php" class="btn btn-secondary w-100 mt-2">Back to Dashboard</a>
+  </form>
   </div>
+  </div>
+  <script src="darkmode.js"></script>
 </body>
 </html>

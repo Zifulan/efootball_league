@@ -56,8 +56,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   <meta charset="UTF-8">
   <title>Register</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body class="bg-light">
+  <button id="darkModeToggle" class="btn btn-secondary">Dark Mode</button>
   <div class="container py-5">
     <div class="mx-auto" style="max-width: 500px;">
       <h2 class="mb-4 text-center">Create an Account</h2>
@@ -100,5 +102,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       </form>
     </div>
   </div>
+  <script src="darkmode.js"></script>
 </body>
 </html>
